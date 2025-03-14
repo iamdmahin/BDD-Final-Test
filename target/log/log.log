@@ -6496,3 +6496,27 @@ Driver info: driver.version: unknown
 2025-03-14 12:25:45 INFO  - Link 'Tools Menu' :: Clicking
 2025-03-14 12:25:45 INFO  - Link 'Page Information' :: Waiting for element to be clickable
 2025-03-14 12:25:45 INFO  - Link 'Page Information' :: Clicking
+2025-03-14 12:42:57 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=./src/test/resources}
+2025-03-14 12:42:57 DEBUG - Got browser logging preferences from settings file: 
+{Performance=All}
+2025-03-14 12:42:59 DEBUG - Set '15' timeout in seconds for loading of pages
+2025-03-14 12:42:59 DEBUG - Set async javascript execution timeout '10' in seconds
+2025-03-14 12:42:59 INFO  - Browser 'CHROME' ready...
+2025-03-14 12:42:59 INFO  - Text Field 'Search Input' :: Waiting for element to be displayed
+2025-03-14 12:42:59 INFO  - Text Field 'Search Input' :: Clearing
+2025-03-14 12:42:59 INFO  - Text Field 'Search Input' :: Typing 'Gabriel García Márquez'
+2025-03-14 12:43:02 INFO  - Text Field 'Search Input' :: Waiting for element to be displayed
+2025-03-14 12:43:02 INFO  - Text Field 'Search Input' :: Clearing
+2025-03-14 12:43:02 INFO  - Text Field 'Search Input' :: Typing 'Albert Einstein'
+2025-03-14 12:43:04 INFO  - Link 'Tools Menu' :: Waiting for element to be clickable
+2025-03-14 12:43:04 INFO  - Link 'Tools Menu' :: Clicking
+2025-03-14 12:43:04 INFO  - Link 'Download as PDF' :: Waiting for element to be clickable
+2025-03-14 12:43:04 INFO  - Link 'Download as PDF' :: Clicking
+2025-03-14 12:43:05 INFO  - Text Field 'Search Input' :: Waiting for element to be displayed
+2025-03-14 12:43:05 INFO  - Text Field 'Search Input' :: Clearing
+2025-03-14 12:43:05 INFO  - Text Field 'Search Input' :: Typing 'Bengal tiger'
+2025-03-14 12:43:06 INFO  - Link 'Tools Menu' :: Waiting for element to be clickable
+2025-03-14 12:43:06 INFO  - Link 'Tools Menu' :: Clicking
+2025-03-14 12:43:07 INFO  - Link 'Page Information' :: Waiting for element to be clickable
+2025-03-14 12:43:07 INFO  - Link 'Page Information' :: Clicking
