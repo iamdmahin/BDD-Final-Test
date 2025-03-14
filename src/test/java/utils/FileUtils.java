@@ -12,7 +12,8 @@ public class FileUtils {
 
     public boolean isFileExist(File file) {
         try {
-            Awaitility.await().atMost(EnvDataReader.getEnvData().getWait(), TimeUnit.SECONDS).until(file::exists);
+            int waitTime = EnvDataReader.getEnvData().getWait(); // Ensure getWait() exists in EnvData
+            Awaitility.await().atMost(waitTime, TimeUnit.SECONDS).until(file::exists);
         } catch (ConditionTimeoutException exception) {
             return false;
         }
@@ -20,8 +21,8 @@ public class FileUtils {
     }
 
     public void deleteFileIfExist(File file) {
-        if (file.exists()) {
-            file.delete();
+        if (file.exists() && file.delete()) {
+            System.out.println("File deleted: " + file.getAbsolutePath());
         }
     }
 }

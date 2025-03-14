@@ -20,4 +20,8 @@ public class JsonReader {
             throw new RuntimeException(e);
         }
     }
+
+    public static String getResourcesPath() {
+        return RESOURCES_PATH;
+    }
 }
